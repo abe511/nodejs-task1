@@ -43,7 +43,6 @@ const parseSize = propsSorted.map((el) => {
         ++order;
     }
     el.fileSize = size + sizes[order];
-    // el.pathLen += el.fileSize.length;
     el.pathLen = el.filePath.length + el.fileSize.length;
     maxPathLen = maxPathLen < el.pathLen ? el.pathLen : maxPathLen;
     return el;
