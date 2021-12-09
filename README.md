@@ -1,13 +1,9 @@
 # nodejs-task1
 
 Create a Node JS application
-
 that will recursively search all files in the directory given in command-line arguments
-
 and create a new file sorted_files.txt
-
 and write file paths and sizes in this file line by line
-
 sorted by file size.
 
 
